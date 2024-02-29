@@ -1,0 +1,58 @@
+	cout << doc[chv - 1] << " muoi ";
+		if (dv)
+			cout << doc[dv - 1];
+		cout << " van ";
+	}
+
+	if ((ngan == 0) && van)
+		cout << " khong ngan ";
+	else if (ngan)	cout << doc[chv - 1] << " muoi ";
+		if (dv)
+			cout << doc[dv - 1];
+		cout << " van ";
+	}
+
+	if ((ngan == 0) && van)
+		cout << " khong ngan ";
+	else if (ngan)
+		cout << doc[ngan - 1] << " ngan ";
+
+	if ((tram == 0) && (van || ngan))
+		cout << " khong tram ";
+	else if (tram)
+		cout << doc[tram - 1] << " tram ";	cout << doc[chv - 1] << " muoi ";
+		if (dv)
+			cout << doc[dv - 1];
+		cout << " van ";
+	}
+
+	if ((ngan == 0) && van)
+		cout << " khong ngan ";
+	else if (ngan)
+		cout << doc[ngan - 1] << " ngan ";
+
+	if ((tram == 0) && (van || ngan))
+		cout << " khong tram ";
+	else if (tram)
+		cout << doc[tram - 1] << " tram ";
+
+	if ((chuc == 0) && donvi && (van || ngan || tram))
+		cout << "le ";
+	else if (chuc == 1)
+		cout << " muoi ";
+
+	if ((chuc == 0) && donvi && (van || ngan || tram))
+		cout << "le ";
+	else if (chuc == 1)
+		cout << " muoi ";
+		cout << doc[ngan - 1] << " ngan ";
+
+	if ((tram == 0) && (van || ngan))
+		cout << " khong tram ";
+	else if (tram)
+		cout << doc[tram - 1] << " tram ";
+
+	if ((chuc == 0) && donvi && (van || ngan || tram))
+		cout << "le ";
+	else if (chuc == 1)
+		cout << " muoi ";
